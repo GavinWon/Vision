@@ -14,6 +14,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet var imageView: UIImageView!
     
     let imagePicker = UIImagePickerController()
+    let imagePicker2 = UIImagePickerController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         imagePicker.delegate = self
         imagePicker.sourceType = .camera
         imagePicker.allowsEditing = false
+        
+        imagePicker2.delegate = self
+        imagePicker2.sourceType = .photoLibrary
+        imagePicker2.allowsEditing = false
         // Do any additional setup after loading the view.
     }
     
@@ -72,6 +77,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
     }
     
-
+    @IBAction func libraryTapped(_ sender: Any) {
+        present(imagePicker2, animated: true, completion: nil)
+    }
+    
 }
 
