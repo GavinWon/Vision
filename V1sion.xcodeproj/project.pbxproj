@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47FD5B5E2353EF490006F519 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FD5B5E2353EF490006F519 /* V1sion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V1sion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FD5B612353EF490006F519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47FD5B632353EF490006F519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		47FD5B652353EF490006F519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		47FD5B552353EF490006F519 = {
 			isa = PBXGroup;
 			children = (
-				47FD5B602353EF490006F519 /* SeeFood */,
+				47FD5B602353EF490006F519 /* V1sion */,
 				47FD5B5F2353EF490006F519 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		47FD5B5F2353EF490006F519 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47FD5B5E2353EF490006F519 /* SeeFood.app */,
+				47FD5B5E2353EF490006F519 /* V1sion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47FD5B602353EF490006F519 /* SeeFood */ = {
+		47FD5B602353EF490006F519 /* V1sion */ = {
 			isa = PBXGroup;
 			children = (
 				47FD5B612353EF490006F519 /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				47FD5B752353F16E0006F519 /* Inceptionv3.mlmodel */,
 				47FD5B77235408600006F519 /* MobileNetV2.mlmodel */,
 			);
-			path = SeeFood;
+			path = V1sion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47FD5B5D2353EF490006F519 /* SeeFood */ = {
+		47FD5B5D2353EF490006F519 /* V1sion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47FD5B722353EF490006F519 /* Build configuration list for PBXNativeTarget "SeeFood" */;
+			buildConfigurationList = 47FD5B722353EF490006F519 /* Build configuration list for PBXNativeTarget "V1sion" */;
 			buildPhases = (
 				47FD5B5A2353EF490006F519 /* Sources */,
 				47FD5B5B2353EF490006F519 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = SeeFood;
+			name = V1sion;
 			productName = SeeFood;
-			productReference = 47FD5B5E2353EF490006F519 /* SeeFood.app */;
+			productReference = 47FD5B5E2353EF490006F519 /* V1sion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47FD5B592353EF490006F519 /* Build configuration list for PBXProject "SeeFood" */;
+			buildConfigurationList = 47FD5B592353EF490006F519 /* Build configuration list for PBXProject "V1sion" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47FD5B5D2353EF490006F519 /* SeeFood */,
+				47FD5B5D2353EF490006F519 /* V1sion */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +294,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2386LZ47TS;
-				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_FILE = V1sion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GavinWong.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GavinWong.V1sion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +312,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2386LZ47TS;
-				INFOPLIST_FILE = SeeFood/Info.plist;
+				INFOPLIST_FILE = V1sion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.GavinWong.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GavinWong.V1sion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47FD5B592353EF490006F519 /* Build configuration list for PBXProject "SeeFood" */ = {
+		47FD5B592353EF490006F519 /* Build configuration list for PBXProject "V1sion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47FD5B702353EF490006F519 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47FD5B722353EF490006F519 /* Build configuration list for PBXNativeTarget "SeeFood" */ = {
+		47FD5B722353EF490006F519 /* Build configuration list for PBXNativeTarget "V1sion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47FD5B732353EF490006F519 /* Debug */,
